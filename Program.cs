@@ -1,6 +1,6 @@
 ﻿using System.Linq;
-using Advent_of_code;
-using Advent_of_code.advent;
+using AdventOfCode;
+using AdventOfCode.Advent;
 
 namespace AdventOfCodeDay1
 {

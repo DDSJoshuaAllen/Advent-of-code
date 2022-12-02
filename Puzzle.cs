@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Advent_of_code
+namespace AdventOfCode
 {
     public abstract class Puzzle
     {

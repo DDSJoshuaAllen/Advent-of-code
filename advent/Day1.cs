@@ -1,6 +1,6 @@
-using Advent_of_code.Helpers;
+using AdventOfCode.Helpers;
 
-namespace Advent_of_code.advent
+namespace AdventOfCode.Advent
 {
     public class Day1 : Puzzle
     {
