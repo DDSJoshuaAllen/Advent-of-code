@@ -8,11 +8,11 @@ namespace AdventOfCodeDay1
     {
         static void Main(string[] args)
         {
-            List<Puzzle> puzzles = new List<Puzzle> { new Day1() };
+            List<Puzzle> puzzles = new List<Puzzle> { new Day1(), new Day2() };
 
             puzzles.ForEach(puzzle =>
             {
-                Parallel.Invoke(puzzle.SolveParts().ToArray());
+                puzzle.SolveParts().ForEach(solution => solution());
             });
         }
     }
