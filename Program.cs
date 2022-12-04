@@ -9,7 +9,7 @@ namespace AdventOfCodeDay1
     {
         static void Main(string[] args)
         {
-            List<Puzzle> puzzles = new List<Puzzle> { new Day1(), new Day2(), new Day3() };
+            List<Puzzle> puzzles = new List<Puzzle> { new Day1(), new Day2(), new Day3(), new Day4() };
 
             puzzles.ForEach(puzzle =>
             {
